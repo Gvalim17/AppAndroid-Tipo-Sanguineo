@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         EditText etT = findViewById(R.id.idT);
         TextView etR = findViewById(R.id.idR);
 
-        String t = etT.getText().toString().toUpperCase();
+        String trat = etT.getText().toString().toUpperCase();
 
-        String resposta = new Sangue().pesquisa(t);
+        String resposta = new Sangue().busca(trat);
         etR.setText(resposta);
     }
 }
