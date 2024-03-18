@@ -2,7 +2,7 @@ package com.example.sanguecompativel;
 
 public class Sangue {
 
-    public String pesquisa(String tipoSangue) {
+    public String busca(String tipoSangue) {
         String mensagem = "";
 
         switch (tipoSangue) {
